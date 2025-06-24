@@ -1,0 +1,124 @@
+body {
+    margin: 0px;
+    background-color: rgb(255, 163, 77);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.background-image {
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    width: 100%;
+}
+
+#about {
+    background-color: rgb(255, 185, 140);
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+#about-me {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10%;
+    font-size: 2vh;
+}
+
+.about-text {
+    text-shadow: 5px 5px 5px rgba(255, 163, 77);
+    font-size: 7vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#age {
+    margin-right: 10%;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+}
+
+#projects-sec {
+    text-align: center;
+}
+
+#projects-title {
+    font-size: 10vh;
+}
+
+.large-project {
+    border-radius: 10px;
+    margin: 1%;
+    width: 60%;
+    display: inline-flex;
+    transition: 0.5s;
+}
+
+.large-project-info {
+    text-shadow: 2px 2px 5px gray;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 3vh;
+}
+
+.large-project-info sub {
+    font-size: 2vh;
+    color: black;
+    text-shadow: 1px 1px 3px gray;
+}
+
+.large-project-info h3 {
+    padding-bottom: 10%;
+}
+
+.small-project {
+    background-color: rgb(255, 185, 140);
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1%;
+    width: 30%;
+    align-self: flex-end;
+    
+}
+
+.camera-project {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(255, 163, 77,1)), url("img/camera.png");
+    background-size: cover;
+}
+
+.tanjobi-project {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(255, 163, 77, 1)), url("img/tanjobi.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.computercraft-project {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(255, 163, 77, 1)), url("img/CCphone.png");
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(to top, rgba(128, 70, 33, 1), rgba(0, 0, 0, 0));
+    padding-bottom: 10px;
+    color: white;
+}
+
+footer h1 {
+    font-size: 10vh;
+}
+
+footer p {
+    font-size: 3vh;
+}
